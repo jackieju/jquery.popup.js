@@ -74,8 +74,8 @@ jQuery.extend({
 				return node;
 			}
 		var settings = $.extend( {
-			'styles': '',
-			'classes': '', // delimited by space
+			'styles': '',	// you can append your style for popup div
+			'classes': '', // classes you like to add for popup div, delimited by space
 			'popupid': "popup",
 			'pos': true // auto position=>true, or given {left, top}
 	    }, options);
